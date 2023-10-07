@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>bzMVVM</Title>
+    <Authors>Darren Horrocks</Authors>
+    <Company>Darren Horrocks</Company>
+    <Description>simple C# MVVM library for disconnecting business logic and UI logic in C# UI apps</Description>
+    <Copyright>2023 Darren Horrocks</Copyright>
+    <PackageProjectUrl>https://github.com/bizzehdee/bzMVVM</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bizzehdee/bzMVVM</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>mvvm</PackageTags>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
